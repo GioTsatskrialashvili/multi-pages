@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: black;
+  height: 12%;
+}
+
+header h1 {
+  color: white;
+  font-weight: bolder;
+  padding-left: 35px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header a:hover {
+  border-bottom: 1px solid white;
+}
+
+header li {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 25px;
+}
+
+.container {
+  padding-top: 5%;
+  margin: 0 auto;
+  width: 53%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .row {
+  border: 0.5px rgba(0, 0, 0, 0.144) solid;
+  width: 300px;
+  height: 335px;
+}
+
+.container .row h2 {
+  font-size: large;
+  padding: 12px 0 12px 15px;
+}
+
+.container .row img {
+  height: 200px;
+}
+
+.container .row p {
+  padding: 0px 10px 12px 12px;
+}
+
+.container .row span {
+  padding-left: 12;
+  margin-bottom: 15px;
+  color: #6c5ce7;
+}
+
+.container .row span:hover {
+  -webkit-text-decoration: underline #6c5ce7;
+          text-decoration: underline #6c5ce7;
+  cursor: pointer;
+}
+
+.container1 {
+  padding-top: 5%;
+}
+
+.container1 h2 {
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.container1 p {
+  margin-left: 10px;
+}
+
+.container2 {
+  padding-top: 5%;
+}
+
+.container2 h2 {
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.container2 p {
+  text-align: center;
+  font-size: xx-large;
+}
+/*# sourceMappingURL=style.css.map */
